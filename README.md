@@ -27,9 +27,9 @@ Here are some ideas to get you started:
 <hr/>
 <p>
 <a href="https://github.com/softwaretechcode"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
-<!--<a href="https://www.linkedin.com/"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>-->
-<a href="https://www.instagram.com/softwaretechcode"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
-	
+<a href="https://www.linkedin.com/mahesh-narsale"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
+<a href="https://www.instagram.com/softwaretechit"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
+<a href="mailto:support@softwaretechit.com"><img src="https://img.icons8.com/bubbles/50/000000/mail.png" alt="mail"/></a>	
 </p>
 
 
