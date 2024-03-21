@@ -1,5 +1,5 @@
 ## Hi there 👋
-<img src="https://readme-typing-svg.herokuapp.com?font=Crimson-Bold&size=40&color=github&center=true&vCenter=true&width=900&height=110&lines=A+Passionate+Programmer;Full+Stack+Developer;Angular+Developer;Python Developer;Java+Developer;Android+Developer;PHP,CSS,Bootstrap,HTML5,Javascript;Content+Creator;SoftwareTechIT.com">
+<img src="https://readme-typing-svg.herokuapp.com?font=Crimson-Bold&size=40&color=github&center=true&vCenter=true&width=900&height=110&lines=A+Passionate+Programmer;Full+Stack+Developer;Angular+Developer;Python Developer;Java+Developer;Android+Developer;PHP,CSS,Bootstrap,HTML5,Javascript;Content+Creator;SoftwareTechIT.com" alt="Typing SVG" />
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=fira-code&size=31&duration=2000&pause=000&color=F72723&center=true&vCenter=true&random=true&width=1200&lines=Welcome+I+Am+Mahesh+;A+Full+Stack+Engineer+;+I+Working+On+Angular%2C+MongoDB%2C+Node.js%2C+Express.js+;Back+End%2C+Front+End%2C+Full+Stack%2C+MEAN%2C+MERN+%2CPython+;JavaScript%2C+Typescript%2C+Java%2C+GitHub%2C+Ubuntu%2C+Cloud+Services%2C+Hosting+;UI%2FUX%2C+Figma%2C+WordPress%2C+PHP;CEO+Of+SoftwareTechIT.com+" alt="Typing SVG" /></a>
 <!--
 **softwaretechcode/softwaretechcode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
