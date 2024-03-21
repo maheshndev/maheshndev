@@ -107,6 +107,8 @@ Here are some ideas to get you started:
 <li>https://link.softwaretechit.com</li>
 <li>https://blog.softwaretechit.com</li>
 <li>https://home.softwaretechit.com</li>
+<li>https://web.softwaretechit.com</li>
+<li>https://shop.softwaretechit.com</li>
 
 ## My Github Stats + Languages & Tools <br/><br/>
 <img src="https://github-readme-stats.vercel.app/api?username=softwaretechcode&custom_title=softwaretechcode&show_icons=true&include_all_commits=true&count_private=true&theme=radical" alt="SoftwareTechIT github stats" />      <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=softwaretechcode&layout=compact&theme=radical" />
