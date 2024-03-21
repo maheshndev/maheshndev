@@ -16,13 +16,13 @@ Here are some ideas to get you started:
 <hr/>
 
 
-- 🔭 I’m currently working on Angular Project
-- 🌱 I’m currently learning Angular,Python, React
-- 🔭 &nbsp; I’m currently doing Open source Contributions.
-- 🤔 &nbsp; Exploring new technologies and developing software solutions and quick hacks.
-- ☕ &nbsp; I believe, a perfect cup of coffee can be the ultimate solution for any stress. 
-- 💬 Ask me about Project And Working 
-- 📫 How to reach me: 
+- 🔭 I’m Currently Working On Angular Project
+- 🌱 I’m Currently Learning Angular,python, React, React Native
+- 🔭 &nbsp; I’m Currently Doing Open Source Contributions.
+- 🤔 &nbsp; Exploring New Technologies And Developing Software Solutions And Quick Hacks.
+- ☕ &nbsp; I Believe, A Perfect Cup Of Coffee Can Be The Ultimate Solution For Any Stress. 
+- 💬 Ask Me About Project And Working 
+- 📫 How To Reach Me: 
 ### Let's Connect :coffee:
 <hr/>
 <p>
