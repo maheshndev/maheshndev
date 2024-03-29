@@ -46,7 +46,9 @@ Here are some ideas to get you started:
 <a href="https://softwaretechit.com/category/html/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/html5/#E34F26" alt="HTML5" height="50" /></a>  
 <a href="https://softwaretechit.com/category/javascript/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/javaScript/#F7DF1E" alt="JavaScript" height="50" /></a>  
 <a href="https://softwaretechit.com/category/typescript/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/typescript/#3178C6" alt="TypeScript" height="50" /></a>  
-<a href="https://softwaretechit.com/category/tailwind-css/" target="_blank"><img style="margin: 15px" src="https://icons8.com/icon/CIAZz2CYc6Kc/tailwindcss" alt="tailwindcss" height="50" /></a> 
+<a href="https://softwaretechit.com/category/tailwind-css/" target="_blank"><img style="margin: 15px" src="https://img.icons8.com/color/48/tailwindcss.png" alt="tailwindcss" height="50" /></a>
+ <a href="https://softwaretechit.com/category/angular/" target="_blank"><img style="margin: 15px" src="https://img.icons8.com/?size=192&id=l9a5tcSnBwcf&format=png" alt="tailwindcss" height="50" /></a>
+ <a href="https://softwaretechit.com/category/react/" target="_blank"><img style="margin: 15px" src="https://img.icons8.com/?size=200&id=NfbyHexzVEDk&format=png" alt="tailwindcss" height="50" /></a>
 </div>
 
 </td><td valign="top" width="33%">
