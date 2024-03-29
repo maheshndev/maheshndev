@@ -41,12 +41,12 @@ Here are some ideas to get you started:
 
 ### Frontend  
 <div align="center">  
-<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/bootstrap/#7952B3" alt="Bootstrap" height="50" /></a>  
-<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/css3/#1572B6" alt="CSS3" height="50" /></a>  
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/html5/#E34F26" alt="HTML5" height="50" /></a>  
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/javaScript/#F7DF1E" alt="JavaScript" height="50" /></a>  
-<a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/typescript/#3178C6" alt="TypeScript" height="50" /></a>  
-<a href="https://jquery.com/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/jquery/#0769AD" alt="jQuery" height="50" /></a> 
+<a href="https://softwaretechit.com/category/bootstrap/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/bootstrap/#7952B3" alt="Bootstrap" height="50" /></a>  
+<a href="https://softwaretechit.com/category/css/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/css3/#1572B6" alt="CSS3" height="50" /></a>  
+<a href="https://softwaretechit.com/category/html/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/html5/#E34F26" alt="HTML5" height="50" /></a>  
+<a href="https://softwaretechit.com/category/javascript/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/javaScript/#F7DF1E" alt="JavaScript" height="50" /></a>  
+<a href="https://softwaretechit.com/category/typescript/" target="_blank"><img style="margin: 15px" src="https://cdn.simpleicons.org/typescript/#3178C6" alt="TypeScript" height="50" /></a>  
+<a href="https://softwaretechit.com/category/tailwind-css/" target="_blank"><img style="margin: 15px" src="https://icons8.com/icon/CIAZz2CYc6Kc/tailwindcss" alt="tailwindcss" height="50" /></a> 
 </div>
 
 </td><td valign="top" width="33%">
