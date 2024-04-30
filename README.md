@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 - ☕ I Believe, A Perfect Cup Of Coffee Can Be The Ultimate Solution For Any Stress. 
 - 💬 Ask Me About Project And Working 
 - 📫 How To Reach Me:
-<table><tr><td valign="top" width="50rem">
+<table><tr><td valign="top" width="100%">
 ### Let's Connect :coffee:
 <hr/>
 <p>
