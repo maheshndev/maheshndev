@@ -47,7 +47,7 @@ Here are some ideas to get you started:
 </td></tr></table>
 
 ## 🔧 Technologies & Tools  
-<table><tr><td valign="top" width="100%">
+<table><tr><td valign="top" width="33%">
 
 ### Frontend  
 <div align="center">  
