@@ -118,5 +118,5 @@ Here are some ideas to get you started:
 
 ## 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=maheshndev&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=maheshndev&column=5)](https://github.com/maheshndev/)
 
