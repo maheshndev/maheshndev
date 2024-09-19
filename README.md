@@ -2,7 +2,7 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=fira-code&size=31&duration=2000&pause=000&color=F72723&center=true&vCenter=true&random=true&width=1200&lines=Welcome+I+Am+Mahesh+;A+Full+Stack+Engineer+;+I+Working+On+Angular%2C+MongoDB%2C+Node.js%2C+Express.js+;Back+End%2C+Front+End%2C+Full+Stack%2C+MEAN%2C+MERN+%2CPython+;JavaScript%2C+Typescript%2C+Java%2C+GitHub;Ubuntu%2C+Cloud+Services%2C+Hosting+;UI%2FUX%2C+Figma%2C+WordPress%2C+PHP;CEO+Of+SoftwareTechIT.com+" alt="Typing SVG" /></a>
 <!--
-**softwaretechcode/softwaretechcode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**maheshndev/maheshndev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
@@ -27,7 +27,7 @@ Here are some ideas to get you started:
 ### Let's Connect :coffee:
 <hr/>
 <p>
-<a href="https://github.com/softwaretechcode"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
+<a href="https://github.com/maheshndev"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/mahesh-narsale"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
 <a href="https://www.instagram.com/softwaretechit"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
 <a href="mailto:maheshnarsale@outlook.com"><img src="https://img.icons8.com/bubbles/50/000000/email.png" alt="email"/></a>	
@@ -114,9 +114,9 @@ Here are some ideas to get you started:
 <br/>  
 
 ## My Github Stats + Languages & Tools <br/><br/>
-<img src="https://github-readme-stats.vercel.app/api?username=softwaretechcode&custom_title=softwaretechcode&show_icons=true&include_all_commits=true&count_private=true&theme=radical" alt="SoftwareTechIT github stats" />      <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=softwaretechcode&layout=compact&theme=radical" />
+<img src="https://github-readme-stats.vercel.app/api?username=maheshndev&custom_title=maheshndev&show_icons=true&include_all_commits=true&count_private=true&theme=radical" alt="SoftwareTechIT github stats" />      <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=maheshndev&layout=compact&theme=radical" />
 
 ## 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=softwaretechcode&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=maheshndev&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
