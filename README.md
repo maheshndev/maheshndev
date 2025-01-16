@@ -50,7 +50,7 @@ Here are some ideas to get you started:
 <table><tr><td valign="top" width="33%">
 
 ### Frontend  
-[![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,nodejs,py,tailwind,vue,nuxt,mongodb,prisma,docker,figma)](https://skillicons.dev)<br/>
+[![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,figma)](https://softwaretechit.com)<br/>
 
 
 </td><td valign="top" width="33%">
@@ -58,19 +58,19 @@ Here are some ideas to get you started:
 
 
 ### Backend  
-<div align="center">  
+
 [![My Skills](https://skillicons.dev/icons?i=express,python,java,mongodb,mysql,mariadb,postgresql)](https://softwaretechit.com)
 
 
-</div>
+
 
 </td><td valign="top" width="33%">
 
 ### DevOps  
-<div align="center">  
+
 [![My Skills](https://skillicons.dev/icons?i=devops)](https://softwaretechit.com)
 
-</div>
+
 
 </td></tr></table>  
 
