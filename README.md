@@ -60,6 +60,7 @@ Here are some ideas to get you started:
 ### Backend  
 
 [![My Skills](https://skillicons.dev/icons?i=express,python,java,mysql,postgresql,nodejs,flask,hibernate,nginx,npm,spring,sqlite)](https://softwaretechit.com)
+[![My Skills](https://skillicons.dev/icons?i=hibernate,nginx,npm,spring,sqlite)](https://softwaretechit.com)
 
 
 
