@@ -50,11 +50,8 @@ Here are some ideas to get you started:
 <table><tr><td valign="top" width="33%">
 
 ### Frontend  
-<div align="center">  
 [![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,nodejs,py,tailwind,vue,nuxt,mongodb,prisma,docker,figma)](https://skillicons.dev)<br/>
 
-
-</div>
 
 </td><td valign="top" width="33%">
 
