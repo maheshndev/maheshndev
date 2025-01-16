@@ -59,8 +59,8 @@ Here are some ideas to get you started:
 
 ### Backend  
 
-[![My Skills](https://skillicons.dev/icons?i=express,python,java,mysql,postgresql,nodejs,flask,hibernate,nginx,npm,spring,sqlite)](https://softwaretechit.com)
-[![My Skills](https://skillicons.dev/icons?i=hibernate,nginx,npm,spring,sqlite)](https://softwaretechit.com)
+[![My Skills](https://skillicons.dev/icons?i=express,python,java,mysql,postgresql,hibernate,nginx,npm,spring,sqlite)](https://softwaretechit.com)
+[![My Skills](https://skillicons.dev/icons?i=nodejs,flask,hibernate,npm,spring,sqlite)](https://softwaretechit.com)
 
 
 
@@ -69,7 +69,7 @@ Here are some ideas to get you started:
 
 ### DevOps  
 
-[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,azure,cloudflare,docker,firebase,github)](https://softwaretechit.com)
+[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,azure,cloudflare,docker,firebase,github,nginx)](https://softwaretechit.com)
 
 
 
