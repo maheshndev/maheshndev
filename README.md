@@ -51,7 +51,7 @@ Here are some ideas to get you started:
 
 ### Frontend  
 [![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,angular,androidstudio,bootstrap,figma,svg,tailwind)](https://softwaretechit.com)<br/>
-
+[![SkillIcons](https://skillicons.dev/icons?i=figma,svg,tailwind)](https://softwaretechit.com)<br/>
 
 </td><td valign="top" width="33%">
 
