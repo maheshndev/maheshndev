@@ -59,7 +59,7 @@ Here are some ideas to get you started:
 
 ### Backend  
 
-[![My Skills](https://skillicons.dev/icons?i=express,python,java,mongodb,mysql,mariadb,postgresql)](https://softwaretechit.com)
+[![My Skills](https://skillicons.dev/icons?i=express,python,java,mysql,mariadb,postgresql)](https://softwaretechit.com)
 
 
 
