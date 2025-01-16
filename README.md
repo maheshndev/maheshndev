@@ -51,7 +51,7 @@ Here are some ideas to get you started:
 
 ### Frontend  
 <div align="center">  
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm,angular,scss,php)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm,angular,scss,php)](https://softwaretechit.com)
 
 </div>
 
@@ -61,7 +61,7 @@ Here are some ideas to get you started:
 
 ### Backend  
 <div align="center">  
-[![My Skills](https://skillicons.dev/icons?i=express,python,java,mongodb,mysql,mariadb,postgresql)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=express,python,java,mongodb,mysql,mariadb,postgresql)](https://softwaretechit.com)
 
 
 </div>
@@ -70,7 +70,7 @@ Here are some ideas to get you started:
 
 ### DevOps  
 <div align="center">  
-[![My Skills](https://skillicons.dev/icons?i=devops)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=devops)](https://softwaretechit.com)
 
 </div>
 
