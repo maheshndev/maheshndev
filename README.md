@@ -69,7 +69,7 @@ Here are some ideas to get you started:
 
 ### DevOps  
 
-[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,azure,cloudflare,docker,firebase,github,nginx)](https://softwaretechit.com)
+[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,azure,cloudflare,docker,firebase,github)](https://softwaretechit.com)
 [![My Skills](https://skillicons.dev/icons?i=nginx,)](https://softwaretechit.com)
 
 
