@@ -51,7 +51,7 @@ Here are some ideas to get you started:
 
 ### Frontend  
 <div align="center">  
-[![SkillIcons](https://skillicons.dev/icons?i=js,html,css,wasm,angular,scss,php)](https://softwaretechit.com)
+[![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,nodejs,py,tailwind,vue,nuxt,mongodb,prisma,docker,figma)](https://skillicons.dev)<br/>
 
 
 </div>
