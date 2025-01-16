@@ -51,7 +51,7 @@ Here are some ideas to get you started:
 
 ### Frontend  
 <div align="center">  
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm,angular,scss,php)](https://softwaretechit.com)
+[![SkillIcons](https://skillicons.dev/icons?i=js,html,css,wasm,angular,scss,php)](https://softwaretechit.com)
 
 
 </div>
