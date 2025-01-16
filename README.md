@@ -51,7 +51,7 @@ Here are some ideas to get you started:
 
 ### Frontend  
 [![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,angular,androidstudio,bootstrap)](https://softwaretechit.com)<br/>
-[![SkillIcons](https://skillicons.dev/icons?i=figma,svg,tailwind,vue)](https://softwaretechit.com)<br/>
+[![SkillIcons](https://skillicons.dev/icons?i=figma,tailwind,vue,wordpress)](https://softwaretechit.com)<br/>
 
 </td><td valign="top" width="33%">
 
@@ -70,7 +70,7 @@ Here are some ideas to get you started:
 ### DevOps  
 
 [![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,azure,cloudflare,docker,firebase,github,nginx)](https://softwaretechit.com)
-
+[![My Skills](https://skillicons.dev/icons?i=nginx,)](https://softwaretechit.com)
 
 
 </td></tr></table>  
