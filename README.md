@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 <hr/>
 
 
-- 🔭 I’m Currently Working As Python Developer
+- 🔭 I’m Currently Working As Python Developer Full Stack
 - 🌱 I’m Currently Learning Angular,python, React, React Native
 - 🔭 I’m Currently Doing Open Source Contributions.
 - 🤔 Exploring New Technologies And Developing Software Solutions And Quick Hacks.
