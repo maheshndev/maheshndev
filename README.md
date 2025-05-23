@@ -31,6 +31,7 @@ Here are some ideas to get you started:
 <a href="https://in.linkedin.com/in/mahesh-narsale"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
 <a href="https://www.instagram.com/softwaretechit"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
 <a href="mailto:maheshnarsale@outlook.com"><img src="https://img.icons8.com/bubbles/50/000000/email.png" alt="email"/></a>	
+<a href="https://maheshndev.github.io/maheshndev/"><img src="https://img.icons8.com/bubbles/50/000000/profile.png" alt="portfolio"/></a>
 </p>
 
 
