@@ -9,6 +9,25 @@
 </head>
 
 <body class="bg-gray-100 text-gray-800 font-sans leading-relaxed">
+    <script>
+  function calculateExperience(startDate) {
+    const start = new Date(startDate); // Example: "2023-12-01"
+    const now = new Date();
+
+    const diffInMs = now - start;
+    const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365.25); // convert ms → years
+
+    return diffInYears.toFixed(1); // one decimal place (e.g., 1.8)
+  }
+
+  // Set your career start date here
+  const startDate = "2023-12-01"; 
+  const years = calculateExperience(startDate);
+
+  document.getElementById("experience-years").textContent =
+    `${years}+ Years Of Experience`;
+</script>
+
     <header class="bg-white">
         <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div class="flex lg:flex-1">
@@ -59,7 +78,7 @@
                 </h1>
                 <p class="text-lg mb-2">Full Stack Developer | Python | Java | Angular | Spring Boot | Frappe ERPNext |
                     Cloud | DevOps</p>
-                <p class="text-xs mb-2">1.8+ Years Of Experience</p>
+                <p class="text-xs mb-2" id="experience-years"></p>
                 <div class="flex flex-wrap items-center gap-4 mb-4">
                     <span class="flex items-center"><svg class="w-5 h-5 mr-1 text-white" fill="none"
                             stroke="currentColor" viewBox="0 0 24 24">
@@ -100,7 +119,7 @@
                 source, and community contribution.
             </p>
             <ul class="list-disc ml-6 text-gray-700">
-                <li>1.8+ years of professional experience in software development.</li>
+                <li><p class="text-xs mb-2" id="experience-years"></p> in software development.</li>
                 <li>Active contributor to open source and technical communities.</li>
                 <li>Strong problem-solving and analytical skills.</li>
                 <li>Quick learner, self-motivated, and detail-oriented.</li>
@@ -147,7 +166,7 @@
                     <div class="bg-white p-6 rounded-xl shadow-sm">
                         <h3 class="text-lg font-bold text-gray-900">Assimilate Technologies Pvt Ltd</h3>
                         <p class="text-sm text-gray-600 italic">Software Engineer <span class="not-italic">(Mar 2024 –
-                                Present)</span> · Pune, Maharashtra, India · On-site</p>
+                                Present)</span> ·  Pune, Maharashtra, India · On-site</p>
                         <ul class="list-disc ml-6 mt-3 space-y-2 text-sm text-gray-700">
                             <li>Developing software solutions using Python, Docker, and JavaScript.</li>
                             <li>Implementing AI algorithms to optimize server performance and enhance user experience.
@@ -541,3 +560,4 @@
 </body>
 
 </html>
+
