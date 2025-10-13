@@ -13,8 +13,6 @@ Here are some ideas to get you started:
 -->
 
 <h3> 💻 About Me </h3>
-<hr/>
-
 
 - 🔭 I’m Currently Working As Python Developer Full Stack
 - 🌱 I’m Currently Learning Angular, Python, JavaScript, React, React Native,
