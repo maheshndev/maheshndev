@@ -48,30 +48,19 @@ Here are some ideas to get you started:
 
 ## 🔧 Technologies & Tools  
 <table><tr><td valign="top" width="33%">
-
 ### Frontend  
 [![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,angular,androidstudio,bootstrap)](https://softwaretechit.com)<br/>
 [![SkillIcons](https://skillicons.dev/icons?i=figma,tailwind,vue,wordpress,react,materialui)](https://softwaretechit.com)<br/>
 
 </td><td valign="top" width="33%">
-
-
-
 ### Backend  
-
 [![My Skills](https://skillicons.dev/icons?i=express,python,nodejs,java,mysql,postgresql)](https://softwaretechit.com)
 [![My Skills](https://skillicons.dev/icons?i=flask,hibernate,npm,spring,sqlite,redis)](https://softwaretechit.com)
 
-
-
-
 </td><td valign="top" width="33%">
-
 ### DevOps  
-
 [![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,azure,cloudflare,firebase)](https://softwaretechit.com)
 [![My Skills](https://skillicons.dev/icons?i=nginx,github,docker)](https://softwaretechit.com)
-
 
 </td></tr></table>  
 
