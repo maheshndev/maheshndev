@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 - Portfolio Website : [https://maheshndev.github.io/maheshndev/](https://maheshndev.github.io/maheshndev/)</br>
 <table><tr><td valign="top" width="500rem" >
 # Let's Connect :coffee:
-<hr/>
+
 <p>
 <a href="https://github.com/maheshndev"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
 <a href="https://in.linkedin.com/in/mahesh-narsale"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
