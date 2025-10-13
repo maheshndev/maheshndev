@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 
 - 🔭 I’m Currently Working As Python Developer Full Stack
-- 🌱 I’m Currently Learning Angular,python, React, React Native
+- 🌱 I’m Currently Learning Angular, Python, JavaScript, React, React Native,
 - 🔭 I’m Currently Doing Open Source Contributions.
 - 🤔 Exploring New Technologies And Developing Software Solutions And Quick Hacks.
 - ☕ I Believe, A Perfect Cup Of Coffee Can Be The Ultimate Solution For Any Stress. 
