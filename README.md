@@ -82,5 +82,5 @@ Here are some ideas to get you started:
 
 ## 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=maheshndev&column=5)](https://github.com/maheshndev/)
+[![trophy](https://github-profile-trophy.vercel.app/?username=maheshndev&column=6)](https://github.com/maheshndev/)
 
