@@ -170,7 +170,7 @@
 
             <aside class="bg-slate-50 dark:bg-slate-800 rounded-xl p-4 border">
               <div class="text-sm text-slate-600 dark:text-slate-300">Contact</div>
-              <div class="mt-2 font-semibold">Mahesh Dattatray Narsale</div>
+              <div class="mt-2 font-semibold">Mahesh Narsale</div>
               <div class="mt-3 flex flex-col gap-2">
                 <a href="https://www.linkedin.com/in/mahesh-narsale" target="_blank" class="text-sm px-3 py-2 rounded-md border text-center">LinkedIn</a>
                 <a href="https://github.com/maheshndev" target="_blank" class="text-sm px-3 py-2 rounded-md border text-center">GitHub</a>
@@ -442,7 +442,7 @@
     <!-- FOOTER -->
     <footer class="py-6 bg-white dark:bg-slate-900 border-t">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-slate-500 dark:text-slate-400">
-        © 2025 Mahesh Dattatray Narsale — Built with Tailwind • Deploy on GitHub Pages
+        © <span id="year"></span> Copyright
       </div>
     </footer>
   </div>
@@ -450,6 +450,7 @@
   <!-- Scripts -->
   <script>
     // ----- Mobile menu toggle
+    document.getElementById("year").textContent = new Date().getFullYear();
     const mobileBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
     mobileBtn?.addEventListener('click', () => {
@@ -565,6 +566,7 @@
   <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
 </body>
 </html>
+
 
 
 
