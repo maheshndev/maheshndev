@@ -1,58 +1,559 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Mahesh Narsale — Full Stack Developer</title>
-<meta name="description" content="Mahesh Narsale — Full Stack Developer (Python, Angular, Cloud). Portfolio 2025." />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mahesh Narsale — Full Stack Software Engineer</title>
+  <meta name="description" content="Mahesh Dattatray Narsale — Full Stack Software Engineer. Python, Angular, Frappe, Cloud DevOps. Portfolio & resume 2025." />
+  <!-- Tailwind CDN (Play) - convenient for GitHub Pages single-file prototype -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Tailwind theme extension (accent: purple -> blue -> green)
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            accent: {
+              50: '#f5f3ff',
+              100: '#ede9fe',
+              200: '#ddd6fe',
+              300: '#c4b5fd',
+              400: '#a78bfa',
+              500: '#8b5cf6',
+              600: '#7c3aed',
+              700: '#6d28d9'
+            },
+            brandblue: '#2563eb',
+            brandgreen: '#10b981'
+          },
+          boxShadow: {
+            'soft-lg': '0 10px 30px rgba(13, 14, 29, 0.08)'
+          }
+        }
+      }
+    }
+  </script>
 
-
-<!-- Tailwind Play CDN (works for GitHub Pages, small portfolio) -->
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-// Tailwind theme extension for accent palette (purple + blue + green)
-tailwind.config = {
-darkMode: 'class',
-theme: {
-extend: {
-colors: {
-accent: {
-50: '#f5f3ff',
-100: '#ede9fe',
-200: '#ddd6fe',
-300: '#c4b5fd',
-400: '#a78bfa',
-500: '#8b5cf6',
-600: '#7c3aed',
-700: '#6d28d9',
-800: '#5b21b6',
-900: '#4c1d95'
-},
-brandblue: '#2563eb',
-brandgreen: '#10b981'
-},
-}
-}
-}
-</script>
-
-
-<!-- Flowbite (optional components) -->
-<link href="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.css" rel="stylesheet" />
-
-
-<link rel="stylesheet" href="styles.css">
+  <!-- Flowbite (optional UI extras) -->
+  <link href="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.css" rel="stylesheet" />
+  <style>
+    /* small custom styles */
+    :root { --accent: #8b5cf6; --brandblue:#2563eb; --brandgreen:#10b981; }
+    html { scroll-behavior: smooth; }
+    .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(6px); }
+    .dark .glass { background: rgba(17,24,39,0.55); }
+    .card-hover:hover { transform: translateY(-6px) scale(1.01); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
+    @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+  </style>
 </head>
-<body class="bg-gray-50 text-gray-800 antialiased transition-colors duration-300">
-<!-- Page wrapper with dark class applied by JS when needed -->
-<div id="page" class="min-h-screen flex flex-col">
+<body class="antialiased bg-gray-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100">
 
+  <!-- PAGE CONTAINER -->
+  <div id="page" class="min-h-screen flex flex-col">
 
-<!-- NAV -->
-<header class="bg-white/60 backdrop-blur sticky top-0 z-40 border-b">
-<div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-<a href="#hero" class="flex items-center gap-3">
-<img src="assets/cv.png" alt="Mahesh Logo" class="h-10 w-10 rounded" />
-<div class="text-sm">
-<div class="font-bold">Mahesh Narsale</div>
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-40 glass border-b">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <a href="#hero" class="flex items-center gap-3 group">
+            <img src="assets/cv.png" alt="Mahesh logo" class="w-10 h-10 rounded-md object-cover shadow-sm" onerror="this.style.display='none'">
+            <div>
+              <div class="text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-blue-500 to-green-400">Mahesh Narsale</div>
+              <div class="text-xs text-slate-500 dark:text-slate-400 -mt-0.5">Full Stack Software Engineer</div>
+            </div>
+          </a>
+
+          <nav class="hidden md:flex items-center gap-6">
+            <a class="nav-link text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-accent-600" href="#about">About</a>
+            <a class="nav-link text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-accent-600" href="#experience">Experience</a>
+            <a class="nav-link text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-accent-600" href="#education">Education</a>
+            <a class="nav-link text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-accent-600" href="#skills">Skills</a>
+            <a class="nav-link text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-accent-600" href="#projects">Projects</a>
+            <a class="nav-link text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-accent-600" href="#certifications">Certifications</a>
+            <a class="nav-link text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-accent-600" href="#github-projects-section">GitHub</a>
+            <a class="nav-link text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-accent-600" href="#contact">Contact</a>
+          </nav>
+
+          <div class="flex items-center gap-3">
+            <a href="https://www.linkedin.com/in/mahesh-narsale" target="_blank" class="hidden sm:inline-flex items-center gap-2 px-3 py-1 rounded-md border text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800">LinkedIn</a>
+
+            <button id="theme-toggle" aria-label="Toggle theme" class="p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800">
+              <!-- icons set by JS -->
+              <svg id="icon-sun" class="w-5 h-5 hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 3v2M12 19v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42M12 7a5 5 0 100 10 5 5 0 000-10z"></path></svg>
+              <svg id="icon-moon" class="w-5 h-5 hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+            </button>
+
+            <button id="mobile-menu-btn" class="md:hidden p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile nav -->
+      <div id="mobile-menu" class="md:hidden hidden border-t">
+        <div class="px-4 py-3 space-y-1">
+          <a class="block py-2 rounded-md" href="#about">About</a>
+          <a class="block py-2 rounded-md" href="#experience">Experience</a>
+          <a class="block py-2 rounded-md" href="#education">Education</a>
+          <a class="block py-2 rounded-md" href="#skills">Skills</a>
+          <a class="block py-2 rounded-md" href="#projects">Projects</a>
+          <a class="block py-2 rounded-md" href="#certifications">Certifications</a>
+          <a class="block py-2 rounded-md" href="#github-projects-section">GitHub</a>
+          <a class="block py-2 rounded-md" href="#contact">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main class="flex-grow">
+      <section id="hero" class="relative py-20 md:py-28">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div class="space-y-5">
+            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
+              <span class="block text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-blue-500 to-green-400">Mahesh Dattatray Narsale</span>
+              <span class="block text-lg font-medium text-slate-600 dark:text-slate-300 mt-1">Full Stack Software Engineer — Python · Angular · Frappe · Cloud DevOps</span>
+            </h1>
+
+            <p class="text-base text-slate-700 dark:text-slate-300 max-w-2xl">
+              I build scalable web applications, customize ERPNext/Frappe solutions, and design robust cloud deployments. Passionate about automation, mentoring, and open-source collaboration.
+            </p>
+
+            <div class="flex flex-wrap gap-3 mt-4">
+              <a href="#projects" class="inline-flex items-center gap-2 btn-primary">View Projects (GitHub)</a>
+              <a href="#contact" class="inline-flex items-center gap-2 btn-outline">Hire Me</a>
+              <a href="assets/Mahesh-Narsale-Resume.pdf" download class="inline-flex items-center gap-2 btn-secondary">Download Resume</a>
+              <a href="mailto:maheshnarasale1@gmail.com" class="inline-flex items-center gap-2 text-sm underline">maheshnarasale1@gmail.com</a>
+            </div>
+
+            <div class="mt-4 text-sm text-slate-600 dark:text-slate-400">
+              Location: Pune, Maharashtra · Languages: English, Marathi, Hindi
+            </div>
+
+            <div class="mt-4 text-sm text-slate-700 dark:text-slate-300">Experience: <span id="experience-years" class="font-semibold">—</span></div>
+
+            <div class="flex gap-2 mt-5">
+              <a href="https://github.com/maheshndev" target="_blank" class="px-3 py-2 rounded-md border text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800">GitHub</a>
+              <a href="https://www.linkedin.com/in/mahesh-narsale" target="_blank" class="px-3 py-2 rounded-md border text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800">LinkedIn</a>
+              <a href="tel:+917410521778" class="px-3 py-2 rounded-md border text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800">+91 74105 21778</a>
+            </div>
+          </div>
+
+          <div class="flex justify-center md:justify-end">
+            <div class="w-64 h-64 rounded-2xl overflow-hidden shadow-soft-lg transform transition-transform duration-500 hover:scale-105 card-hover">
+              <img src="assets/portrait.jpg" alt="Mahesh portrait" class="w-full h-full object-cover bg-white" onerror="this.style.display='none'">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="py-12 bg-white dark:bg-slate-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid md:grid-cols-3 gap-8 items-start">
+            <div class="md:col-span-2">
+              <h2 class="text-2xl font-semibold">About</h2>
+              <p class="mt-4 text-slate-700 dark:text-slate-300">
+                <strong>CAREER OBJECTIVE:</strong>
+                To leverage my expertise as a software professional, contribute to the success of the company, share knowledge, and actively contribute to the growth and development of my peers.
+              </p>
+
+              <div class="mt-6 prose prose-slate dark:prose-invert max-w-none">
+                <p>
+                  I have experience developing and customizing ERPNext and Frappe applications and building responsive web apps using Python, JavaScript, Node.js, and modern frontend frameworks. I also manage deployments on Ubuntu, Docker, and AWS.
+                </p>
+                <ul>
+                  <li>Active contributor to open-source and technical communities.</li>
+                  <li>Strong problem-solving, mentoring, and communication skills.</li>
+                </ul>
+              </div>
+            </div>
+
+            <aside class="bg-slate-50 dark:bg-slate-800 rounded-xl p-4 border">
+              <div class="text-sm text-slate-600 dark:text-slate-300">Contact</div>
+              <div class="mt-2 font-semibold">Mahesh Dattatray Narsale</div>
+              <div class="text-xs text-slate-500 mt-2">Email: <a href="mailto:maheshnarasale1@gmail.com" class="underline">maheshnarasale1@gmail.com</a></div>
+              <div class="text-xs text-slate-500">Phone: <a href="tel:+917410521778" class="underline">+91 74105 21778</a></div>
+              <div class="mt-3 flex flex-col gap-2">
+                <a href="https://www.linkedin.com/in/mahesh-narsale" target="_blank" class="text-sm px-3 py-2 rounded-md border text-center">LinkedIn</a>
+                <a href="https://github.com/maheshndev" target="_blank" class="text-sm px-3 py-2 rounded-md border text-center">GitHub</a>
+                <a href="assets/Mahesh-Narsale-Resume.pdf" download class="text-sm px-3 py-2 rounded-md border text-center">Download Resume</a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="py-12 bg-gray-50 dark:bg-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-2xl font-semibold">Experience</h2>
+
+          <ol class="mt-6 space-y-6">
+            <li class="bg-white dark:bg-slate-900 rounded-xl p-6 border shadow-sm">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h3 class="font-semibold">Assimilate Technology — Full Stack Software Engineer</h3>
+                  <div class="text-sm text-slate-500 dark:text-slate-400">Dec 2023 — Present · Pune, India</div>
+                </div>
+                <div class="text-sm text-slate-600 dark:text-slate-400">On-site</div>
+              </div>
+              <ul class="mt-4 list-disc ml-5 text-slate-700 dark:text-slate-300">
+                <li>Developed, customized, and maintained ERPNext and Frappe Framework applications.</li>
+                <li>Designed and implemented responsive web apps using Python, JavaScript, Node.js, HTML5, CSS3, Bootstrap, Vue & React.</li>
+                <li>Built and managed backend APIs for system integration & data processing; deployed on Ubuntu, Docker & AWS.</li>
+                <li>Developed Frappe/ERPNext apps: HRMS, CRM, Hospital, Real Estate, Inventory, School Management & custom modules (Mold Management, Gate Entry, Biometric integration).</li>
+              </ul>
+            </li>
+
+            <li class="bg-white dark:bg-slate-900 rounded-xl p-6 border shadow-sm">
+              <div class="flex items-start justify-between">
+                <div>
+                  <h3 class="font-semibold">Intern — Assimilate Technology</h3>
+                  <div class="text-sm text-slate-500 dark:text-slate-400">Dec 2023 — Mar 2024 · Pune, India</div>
+                </div>
+                <div class="text-sm text-slate-600 dark:text-slate-400">Internship</div>
+              </div>
+              <ul class="mt-4 list-disc ml-5 text-slate-700 dark:text-slate-300">
+                <li>Built and maintained company website and Android app; integrated YouTube API and payment gateways.</li>
+                <li>Worked with Angular, Node.js, MongoDB, and Bootstrap.</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="py-12 bg-white dark:bg-slate-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-2xl font-semibold">Education</h2>
+
+          <div class="mt-6 grid md:grid-cols-3 gap-6">
+            <div class="bg-gray-50 dark:bg-slate-800 rounded-xl p-4 border">
+              <div class="font-semibold">MCA — ASMA Institute of Management, Pune</div>
+              <div class="text-sm text-slate-500 dark:text-slate-400">Savitribai Phule Pune University · 2020 – 2022 · 9.15 CGPA</div>
+            </div>
+
+            <div class="bg-gray-50 dark:bg-slate-800 rounded-xl p-4 border">
+              <div class="font-semibold">BCA — New Arts, Commerce & Science College, Ahmednagar</div>
+              <div class="text-sm text-slate-500 dark:text-slate-400">Savitribai Phule Pune University · 2017 – 2020 · 8.29 CGPA</div>
+            </div>
+
+            <div class="bg-gray-50 dark:bg-slate-800 rounded-xl p-4 border">
+              <div class="font-semibold">School — Shri. Jalandhar High School, Raimoha</div>
+              <div class="text-sm text-slate-500 dark:text-slate-400">12th (80%) · 2016–2017 · 10th (67.40%) · 2014–2015</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="py-12 bg-gray-50 dark:bg-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-2xl font-semibold">Technical Skills</h2>
+
+          <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white dark:bg-slate-900 rounded-xl p-4 border shadow-sm card-hover">
+              <h4 class="font-semibold">Programming Languages</h4>
+              <div class="mt-3 flex flex-wrap gap-2 text-xs">
+                <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700">Python</span>
+                <span class="px-3 py-1 rounded-full bg-sky-50 text-sky-700">TypeScript</span>
+                <span class="px-3 py-1 rounded-full bg-yellow-50 text-yellow-700">JavaScript</span>
+                <span class="px-3 py-1 rounded-full bg-rose-50 text-rose-700">Java</span>
+                <span class="px-3 py-1 rounded-full bg-gray-50 text-gray-700">C / C++</span>
+              </div>
+            </div>
+
+            <div class="bg-white dark:bg-slate-900 rounded-xl p-4 border shadow-sm card-hover">
+              <h4 class="font-semibold">Frameworks & App Dev</h4>
+              <div class="mt-3 flex flex-wrap gap-2 text-xs">
+                <span class="px-3 py-1 rounded-full bg-green-50 text-green-700">Angular</span>
+                <span class="px-3 py-1 rounded-full bg-emerald-50 text-emerald-700">Frappe / ERPNext</span>
+                <span class="px-3 py-1 rounded-full bg-purple-50 text-purple-700">Flask</span>
+                <span class="px-3 py-1 rounded-full bg-pink-50 text-pink-700">Android</span>
+              </div>
+            </div>
+
+            <div class="bg-white dark:bg-slate-900 rounded-xl p-4 border shadow-sm card-hover">
+              <h4 class="font-semibold">Databases & Tools</h4>
+              <div class="mt-3 flex flex-wrap gap-2 text-xs">
+                <span class="px-3 py-1 rounded-full bg-amber-50 text-amber-700">PostgreSQL</span>
+                <span class="px-3 py-1 rounded-full bg-amber-50 text-amber-700">MySQL / MariaDB</span>
+                <span class="px-3 py-1 rounded-full bg-green-50 text-green-700">MongoDB</span>
+                <span class="px-3 py-1 rounded-full bg-cyan-50 text-cyan-700">Docker</span>
+                <span class="px-3 py-1 rounded-full bg-slate-50 text-slate-700">AWS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS (featured) -->
+      <section id="projects" class="py-12 bg-white dark:bg-slate-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between">
+            <h2 class="text-2xl font-semibold">Featured Projects</h2>
+            <div class="text-sm text-slate-500 dark:text-slate-400">Selected work</div>
+          </div>
+
+          <div class="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <!-- Use your project entries from resume -->
+            <article class="p-6 rounded-xl border bg-gray-50 dark:bg-slate-800 shadow-sm card-hover">
+              <div class="flex justify-between items-start">
+                <div>
+                  <h3 class="font-semibold">Renu Sales & Purchase Modules</h3>
+                  <div class="text-sm text-slate-500 dark:text-slate-400">Aug 2025 — Sep 2025 · Assimilate Technologies</div>
+                </div>
+                <span class="text-xs px-2 py-1 rounded-full bg-indigo-100 text-indigo-700">Python · Frappe</span>
+              </div>
+              <p class="mt-3 text-sm text-slate-700 dark:text-slate-300">Full stack development of sales & purchase modules for ERPNext, deployed on AWS and managed via Docker.</p>
+            </article>
+
+            <article class="p-6 rounded-xl border bg-gray-50 dark:bg-slate-800 shadow-sm card-hover">
+              <div class="flex justify-between items-start">
+                <div>
+                  <h3 class="font-semibold">Resume Lens App</h3>
+                  <div class="text-sm text-slate-500 dark:text-slate-400">ERPNext Developer · Assimilate Technologies</div>
+                </div>
+                <span class="text-xs px-2 py-1 rounded-full bg-indigo-100 text-indigo-700">React · Frappe</span>
+              </div>
+              <p class="mt-3 text-sm text-slate-700 dark:text-slate-300">Tool to parse and visualize resume data inside ERPNext workflows.</p>
+            </article>
+
+            <article class="p-6 rounded-xl border bg-gray-50 dark:bg-slate-800 shadow-sm card-hover">
+              <div class="flex justify-between items-start">
+                <div>
+                  <h3 class="font-semibold">Mold Management / Gate Management / HRMS</h3>
+                  <div class="text-sm text-slate-500 dark:text-slate-400">ERPNext Modules · Assimilate Technologies</div>
+                </div>
+                <span class="text-xs px-2 py-1 rounded-full bg-indigo-100 text-indigo-700">ERPNext</span>
+              </div>
+              <p class="mt-3 text-sm text-slate-700 dark:text-slate-300">Custom modules and biometric integration for HR & gate control systems.</p>
+            </article>
+
+            <article class="p-6 rounded-xl border bg-gray-50 dark:bg-slate-800 shadow-sm card-hover">
+              <h3 class="font-semibold">SoftwareTechIT Website</h3>
+              <div class="text-sm text-slate-500 dark:text-slate-400">Nov 2022 — Jan 2023</div>
+              <p class="mt-3 text-sm text-slate-700 dark:text-slate-300">Full stack website using Angular, Node.js, Express, MongoDB and Bootstrap.</p>
+            </article>
+
+            <article class="p-6 rounded-xl border bg-gray-50 dark:bg-slate-800 shadow-sm card-hover">
+              <h3 class="font-semibold">Android App — SoftwareTechIT</h3>
+              <div class="text-sm text-slate-500 dark:text-slate-400">Aug 2021 — Nov 2022</div>
+              <p class="mt-3 text-sm text-slate-700 dark:text-slate-300">Android app using YouTube API and Figma for design.</p>
+            </article>
+
+            <article class="p-6 rounded-xl border bg-gray-50 dark:bg-slate-800 shadow-sm card-hover">
+              <h3 class="font-semibold">Covid-19 Hospital Management System</h3>
+              <div class="text-sm text-slate-500 dark:text-slate-400">Java · PostgreSQL (MCA Project)</div>
+              <p class="mt-3 text-sm text-slate-700 dark:text-slate-300">Hospital management system implemented using Java and PostgreSQL.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS & ACHIEVEMENTS -->
+      <section id="certifications" class="py-12 bg-gray-50 dark:bg-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-2xl font-semibold">Certifications & Achievements</h2>
+
+          <div class="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border shadow-sm">
+              <div class="font-semibold">Angular Developer</div>
+              <div class="text-sm text-slate-500">SP Institute · 2022</div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border shadow-sm">
+              <div class="font-semibold">Java (Hibernate, Spring) & WCD</div>
+              <div class="text-sm text-slate-500">SEED InfoTech</div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border shadow-sm">
+              <div class="font-semibold">Android & C++ Courses</div>
+              <div class="text-sm text-slate-500">SEED InfoTech</div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border shadow-sm">
+              <div class="font-semibold">Full Stack Web Developer Program</div>
+              <div class="text-sm text-slate-500">Edureka · Jul 2023</div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border shadow-sm">
+              <div class="font-semibold">Fest Dev-Tech 2019 — C Programming & Web Dev</div>
+              <div class="text-sm text-slate-500">IMS College</div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white dark:bg-slate-900 border shadow-sm">
+              <div class="font-semibold">Android Workshop — Radiance IIT Bombay (3-day)</div>
+              <div class="text-sm text-slate-500">2017</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GITHUB PROJECTS (auto-loaded) -->
+      <section id="github-projects-section" class="py-12 bg-white dark:bg-slate-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between">
+            <h2 class="text-2xl font-semibold">GitHub Projects</h2>
+            <a href="https://github.com/maheshndev?tab=repositories" target="_blank" class="text-sm underline">View repos on GitHub →</a>
+          </div>
+
+          <div id="github-projects" class="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="py-12 bg-gray-50 dark:bg-slate-800">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-2xl font-semibold text-center">Contact</h2>
+          <p class="text-center text-sm text-slate-600 dark:text-slate-300 mt-2">Interested in collaborating or hiring? Send a message — I'll get back within 48 hours.</p>
+
+          <form id="contact-form" class="mt-6 grid grid-cols-1 gap-4">
+            <div class="grid md:grid-cols-2 gap-4">
+              <input name="name" type="text" required placeholder="Your name" class="p-3 border rounded-md bg-white dark:bg-slate-900" />
+              <input name="email" type="email" required placeholder="Email address" class="p-3 border rounded-md bg-white dark:bg-slate-900" />
+            </div>
+            <input name="subject" type="text" placeholder="Subject (optional)" class="p-3 border rounded-md bg-white dark:bg-slate-900" />
+            <textarea name="message" rows="5" required placeholder="Message" class="p-3 border rounded-md bg-white dark:bg-slate-900"></textarea>
+
+            <div class="flex items-center justify-between gap-4">
+              <button type="submit" class="btn-primary px-4 py-2">Send Message</button>
+              <div class="flex gap-2">
+                <a href="mailto:maheshnarasale1@gmail.com" class="px-3 py-2 rounded-md border text-sm">Email</a>
+                <a href="tel:+917410521778" class="px-3 py-2 rounded-md border text-sm">Call</a>
+              </div>
+            </div>
+
+            <div id="form-status" class="text-sm text-green-600 mt-2"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-6 bg-white dark:bg-slate-900 border-t">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-slate-500 dark:text-slate-400">
+        © 2025 Mahesh Dattatray Narsale — Built with Tailwind • Deploy on GitHub Pages
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    // ----- Mobile menu toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileBtn?.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // ----- Theme toggle (auto + save)
+    const themeToggle = document.getElementById('theme-toggle');
+    const iconSun = document.getElementById('icon-sun');
+    const iconMoon = document.getElementById('icon-moon');
+
+    function setIcons(isDark) {
+      if (isDark) { iconMoon.classList.remove('hidden'); iconSun.classList.add('hidden'); }
+      else { iconSun.classList.remove('hidden'); iconMoon.classList.add('hidden'); }
+    }
+    (function initTheme() {
+      const saved = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const dark = saved ? saved === 'dark' : prefersDark;
+      document.documentElement.classList.toggle('dark', dark);
+      setIcons(dark);
+    })();
+    themeToggle.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      setIcons(isDark);
+    });
+
+    // ----- Experience years auto-calc
+    (function(){
+      // Set careerStart to the date you want to measure experience from.
+      // I used Dec 1, 2023 (you can edit to match your preferred "start").
+      const careerStart = new Date('2023-12-01'); // <-- change if needed
+      const now = new Date();
+      const diffMs = now - careerStart;
+      const diffYears = diffMs / (1000 * 60 * 60 * 24 * 365.25);
+      const yearsWhole = Math.floor(diffYears);
+      const months = Math.floor((diffYears - yearsWhole) * 12);
+      let label = '';
+      if (yearsWhole >= 1) label = (yearsWhole + (months >= 6 ? '+': '')) + ' years';
+      else if (months > 0) label = months + ' months';
+      else label = '< 1 month';
+      // If you prefer the resume's "2+ Year" label, set it manually here:
+      // label = '2+ Years';
+      document.getElementById('experience-years').textContent = label;
+    })();
+
+    // ----- Fetch GitHub repos and render
+    (async function loadGitHubRepos(){
+      const container = document.getElementById('github-projects');
+      const user = 'maheshndev';
+      try {
+        const res = await fetch(`https://api.github.com/users/${user}/repos?per_page=12&sort=updated`);
+        if(!res.ok) throw new Error('GitHub API rate or network issue');
+        const repos = await res.json();
+        if(!Array.isArray(repos)) throw new Error('Unexpected repo data');
+        repos.forEach(repo => {
+          const el = document.createElement('article');
+          el.className = 'p-4 rounded-xl border bg-gray-50 dark:bg-slate-800 shadow-sm card-hover';
+          el.innerHTML = `
+            <a href="${repo.html_url}" target="_blank" class="block font-semibold hover:underline">${repo.name}</a>
+            <p class="text-sm text-slate-600 dark:text-slate-300 mt-2">${repo.description ? repo.description : 'No description'}</p>
+            <div class="mt-3 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+              <div>${repo.language ? `<span class="px-2 py-1 rounded-full border text-xs">${repo.language}</span>` : ''}</div>
+              <div>★ ${repo.stargazers_count}</div>
+            </div>
+          `;
+          container.appendChild(el);
+        });
+      } catch (err) {
+        console.warn('Could not load GitHub repos', err);
+        container.innerHTML = '<div class="text-sm text-slate-500">Unable to load GitHub projects right now.</div>';
+      }
+    })();
+
+    // ----- Simple contact form (client-side demo)
+    (function(){
+      const form = document.getElementById('contact-form');
+      const status = document.getElementById('form-status');
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        // demo only: show thank you & reset
+        status.textContent = 'Thanks — message received (demo). Please email maheshnarasale1@gmail.com to reach me directly.';
+        form.reset();
+      });
+    })();
+
+    // ----- Smooth highlight active nav link on scroll (basic)
+    (function() {
+      const links = document.querySelectorAll('a.nav-link');
+      const sections = Array.from(links).map(l => document.querySelector(l.getAttribute('href')));
+      function onScroll(){
+        const scrollPos = window.scrollY + 120;
+        for (let i = sections.length - 1; i >= 0; i--) {
+          const s = sections[i];
+          if (!s) continue;
+          if (scrollPos >= s.offsetTop) {
+            links.forEach(l => l.classList.remove('text-accent-600', 'font-semibold'));
+            const active = [...links].find(l => l.getAttribute('href') === '#' + s.id);
+            active?.classList.add('text-accent-600','font-semibold');
+            break;
+          }
+        }
+      }
+      window.addEventListener('scroll', onScroll);
+      onScroll();
+    })();
+
+  </script>
+
+  <!-- Flowbite script (optional) -->
+  <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
+</body>
 </html>
