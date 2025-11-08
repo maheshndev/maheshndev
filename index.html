@@ -1,696 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mahesh Narsale - Full Stack Developer Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahesh Narsale — Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Mahesh Narsale, Full Stack Developer specializing in Python, Angular, and Cloud DevOps.">
+  
+  <!-- Tailwind CSS CDN (v3) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2b12a6e16.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-gray-100 text-gray-800 font-sans leading-relaxed">
-    
-
-    <header class="bg-white">
-        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-            <div class="flex lg:flex-1">
-                <a href="#" class="-m-1.5 p-1.5">
-                    <span class="sr-only">Your Company</span>
-                    <img class="h-8 w-auto" src="assets/cv.png" alt="">
-                </a>
-            </div>
-            <div class="flex lg:hidden">
-                <button type="button"
-                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                        aria-hidden="true" data-slot="icon">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                    </svg>
-                </button>
-            </div>
-            <div class="hidden lg:flex lg:gap-x-12">
-                <a href="#about" class="text-sm/6 font-semibold text-gray-900">About</a>
-                <a href="#experience" class="text-sm/6 font-semibold text-gray-900">Experience</a>
-                <a href="#education" class="text-sm/6 font-semibold text-gray-900">Education</a>
-                <a href="#skills" class="text-sm/6 font-semibold text-gray-900">Skills</a>
-                <a href="#projects" class="text-sm/6 font-semibold text-gray-900">Projects</a>
-                <a href="#certifications" class="text-sm/6 font-semibold text-gray-900">Certifications</a>
-                <a href="#github-projects-section" class="text-sm/6 font-semibold text-gray-900">GitHub Projects</a>
-                <a href="#contact" class="text-sm/6 font-semibold text-gray-900">Contact</a>
-            </div>
-            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="https://linkedin.com/in/mahesh-narsale" class="text-sm/6 font-semibold text-gray-900">Contact Me <span
-                        aria-hidden="true">&rarr;</span></a>
-            </div>
-        </nav>
-
-    </header>
-
-
-    <!-- Hero Block -->
-    <section class="relative bg-gradient-to-r from-blue-500 to-indigo-600 text-white" id="hero">
-        <div class="max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center gap-8">
-            <!-- Avatar -->
-
-            <!-- User Profile Advanced -->
-            <div>
-                <h1 class="text-4xl font-extrabold mb-2">Mahesh Narsale <span class="ml-2 align-middle"><span
-                            class="inline-block px-2 py-1 text-xs bg-green-200 text-green-800 rounded-full font-semibold">Available</span></span>
-                </h1>
-                <p class="text-lg mb-2">Full Stack Software Engineer | Python | Angular | Frappe |
-                    Cloud | DevOps | Docker | Java </p>
-                <p class="text-xs mb-2">
-                          <span id="experience-years"></span>
-                </p>
-                <div class="flex flex-wrap items-center gap-4 mb-4">
-                    <span class="flex items-center"><svg class="w-5 h-5 mr-1 text-white" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path
-                                d="M3 5h2l.4 2M7 13h10l4-8H5.4M7 13l-1.35 2.7A2 2 0 008.48 19h7.04a2 2 0 001.83-1.3L17 13M7 13V6h10v7">
-                            </path>
-                        </svg> Pune, Maharashtra, India</span>
-                    <span class="flex items-center"><svg class="w-5 h-5 mr-1 text-white" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path d="M16 12a4 4 0 01-8 0V8a4 4 0 018 0v4z"></path>
-                            <path d="M12 16v2m0 4h.01"></path>
-                        </svg> English, Marathi, Hindi</span>
-                </div>
-                <div class="flex flex-wrap gap-4">
-                    <a href="http://linkedin.com/in/mahesh-narsale" target="_blank"
-                        class="bg-white text-blue-700 px-4 py-1 rounded rounded-xl shadow hover:bg-blue-50 font-semibold transition">LinkedIn</a>
-                    <a href="https://github.com/maheshndev" target="_blank"
-                        class="bg-white text-gray-800 px-4 py-1 rounded rounded-xl shadow hover:bg-gray-100 font-semibold transition">GitHub</a>
-                </div>
-                <div class="mt-4"></div>
-                <span class="inline-block bg-white text-blue-700 px-3 py-1 rounded-full text-xs font-semibold mr-2">Open
-                    to Work</span>
-                <span class="inline-block bg-white text-green-700 px-3 py-1 rounded-full text-xs font-semibold">Actively
-                    Learning & Sharing</span>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="py-8 bg-white" id="about">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-2xl font-semibold mb-4 text-gray-800">About Me</h2>
-            <p class="text-gray-700 text-lg mb-2">
-                Passionate Full Stack Developer with hands-on experience in building scalable web applications and
-                enterprise solutions. Adept at collaborating with cross-functional teams, mentoring juniors, and
-                delivering robust software using modern technologies. Strong believer in continuous learning, open
-                source, and community contribution.
-            </p>
-            <ul class="list-disc ml-6 text-gray-700">
-                <li><i class="fa fa-check"></i><span id="experience-years-about"></span> in software development.</li>
-                <li>Active contributor to open source and technical communities.</li>
-                <li>Strong problem-solving and analytical skills.</li>
-                <li>Quick learner, self-motivated, and detail-oriented.</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Accordion: Career Objective -->
-    <section class="py-8 bg-gray-50" id="objective-section">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="border rounded-lg shadow">
-                <button type="button"
-                    class="w-full flex justify-between items-center px-6 py-4 text-lg font-semibold text-gray-800 focus:outline-none"
-                    onclick="document.getElementById('objective-content').classList.toggle('hidden')">
-                    Career Objective
-                    <svg class="w-5 h-5 ml-2 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </button>
-                <div id="objective-content" class="px-6 pb-4 text-gray-700">
-                    My goal is to utilize my software development skills to drive organizational success, foster
-                    knowledge sharing, and support the growth of my team. I seek opportunities in dynamic environments
-                    that value innovation and continuous improvement.
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Timeline: Work Experience -->
-    <section class="py-8 bg-white" id="experience">
-        <div class="max-w-6xl mx-auto px-2">
-            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Experience</h2>
-            <ol class="relative border-l-4 border-blue-500 ml-2">
-                <!-- Assimilate Technologies Pvt Ltd - Software Engineer -->
-                <li class="mb-10 ml-4">
-                    <span
-                        class="absolute flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full -left-4 ring-4 ring-white">
-                        <svg class="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                            <path
-                                d="M6 2a2 2 0 00-2 2v2H3a1 1 0 000 2h1v8a2 2 0 002 2h8a2 2 0 002-2V6h1a1 1 0 100-2h-1V4a2 2 0 00-2-2H6zm0 2h8v2H6V4zm0 4h8v8H6V8z">
-                            </path>
-                        </svg>
-                    </span>
-                    <div class="bg-white p-6 rounded-xl shadow-sm">
-                        <h3 class="text-lg font-bold text-gray-900">Assimilate Technologies Pvt Ltd</h3>
-                        <p class="text-sm text-gray-600 italic">Software Engineer <span class="not-italic">(Mar 2024 –
-                                Present)</span> ·  Pune, Maharashtra, India · On-site</p>
-                        <ul class="list-disc ml-6 mt-3 space-y-2 text-sm text-gray-700">
-                            <li>Developing software solutions using Python, Docker, and JavaScript.</li>
-                            <li>Implementing AI algorithms to optimize server performance and enhance user experience.
-                            </li>
-                            <li>Collaborating with cross-functional teams to integrate Vue.js and React.js for seamless
-                                application development.</li>
-                        </ul>
-                        <div class="mt-2 text-xs text-gray-500">Full-Stack Development, Python, and more</div>
-                    </div>
-                </li>
-                <!-- Assimilate Technologies Pvt Ltd - Intern -->
-                <li class="mb-10 ml-6">
-                    <span
-                        class="absolute flex items-center justify-center w-8 h-8 bg-green-100 rounded-full -left-4 ring-4 ring-white">
-                        <svg class="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                            <path
-                                d="M6 2a2 2 0 00-2 2v2H3a1 1 0 000 2h1v8a2 2 0 002 2h8a2 2 0 002-2V6h1a1 1 0 100-2h-1V4a2 2 0 00-2-2H6zm0 2h8v2H6V4zm0 4h8v8H6V8z">
-                            </path>
-                        </svg>
-                    </span>
-                    <div class="bg-white p-6 rounded-xl shadow-sm">
-                        <h3 class="text-lg font-bold text-gray-900">Assimilate Technologies Pvt Ltd</h3>
-                        <p class="text-sm text-gray-600 italic">Intern <span class="not-italic">(Dec 2023 – March
-                                2024)</span> · Pune, Maharashtra, India · On-site</p>
-                        <ul class="list-disc ml-6 mt-3 space-y-2 text-sm text-gray-700">
-                            <li>Built and maintained company website and Android app.</li>
-                            <li>Integrated YouTube API and payment gateways.</li>
-                            <li>Worked with Angular, Node.js, MongoDB, and Bootstrap.</li>
-                        </ul>
-                        <div class="mt-2 text-xs text-gray-500">Full-Stack Development, Python, and more</div>
-                    </div>
-                </li>
-            </ol>
-        </div>
-    </section>
-
-     <!-- Card: Technical Skills -->
-    <!--<section class="py-8 bg-gray-50" id="skills">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Technical Skills</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                <div class="bg-white rounded-lg shadow p-4">
-                    <span
-                        class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mb-2">Languages</span>
-                    <ul class="list-disc ml-2 text-sm">
-                        Python, TypeScript, JavaScript, C, C++, Java, SQL,
-                    </ul>
-                </div>
-                <div class="bg-white rounded-lg shadow p-4">
-                    <span
-                        class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full mb-2">Frameworks</span>
-                    <ul class="list-disc ml-2 text-sm">
-                        Angular, Spring Boot, Hibernate, Flask, Node.js, Express.js, Frappe ERPNext, FastAPI, Django
-                    </ul>
-                </div>
-                <div class="bg-white rounded-lg shadow p-4">
-                    <span
-                        class="inline-block bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full mb-2">Databases</span>
-                    <ul class="list-disc ml-2 text-sm">
-                        PostgreSQL, MySQL, MongoDB, MariaDB, SQLite, Redis, Firebase
-                    </ul>
-                </div>
-                <div class="bg-white rounded-lg shadow p-4">
-                    <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full mb-2">App
-                        Dev</span>
-                    <ul class="list-disc ml-2 text-sm">
-                        Android Developer, React Native
-                    </ul>
-                </div>
-                <div class="bg-white rounded-lg shadow p-4">
-                    <span class="inline-block bg-pink-100 text-pink-800 text-xs px-2 py-1 rounded-full mb-2">ORM &
-                        Tools</span>
-                    <ul class="list-disc ml-2 text-sm">
-                        Git, Docker, AWS, Ubuntu
-                    </ul>
-                </div>
-                <div class="bg-white rounded-lg shadow p-4">
-                    <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full mb-2">Markup
-                        & Script</span>
-                    <ul class="list-disc ml-2 text-sm">
-                        HTML5, CSS3, PHP, JSP, JQuery, Bootstrap, Tailwind CSS, XML, JSON, AJAX, RESTful APIs
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section> -->
-  <!-- Technical Skills -->
-<section id="skills" class="py-12 bg-gray-50">
-  <div class="max-w-6xl mx-auto px-4">
-    <h2 class="text-2xl font-semibold text-gray-800 text-left mb-6">Technical Skills</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      
-      <!-- Languages -->
-      <div class="bg-white border border-gray-100 rounded-xl p-3 shadow-sm hover:shadow-md transition duration-300">
-        <h3 class="text-base font-semibold text-blue-700 bg-blue-50 inline-block px-3 py-1 rounded-full mb-4">
-          Languages
-        </h3>
-        <div class="flex flex-wrap gap-2 text-xs">
-          <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
-          <span class="px-3 py-1 bg-sky-100 text-sky-800 rounded-full">TypeScript</span>
-          <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full">JavaScript</span>
-          <span class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full">C</span>
-          <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full">C++</span>
-          <span class="px-3 py-1 bg-red-100 text-red-800 rounded-full">Java</span>
-          <span class="px-3 py-1 bg-teal-100 text-teal-800 rounded-full">SQL</span>
-        </div>
+<body class="font-inter bg-gray-50 text-gray-800">
+  <!-- Navbar -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <div class="flex items-center space-x-2">
+        <img src="assets/cv.png" alt="Logo" class="w-9 h-9 rounded-md">
+        <span class="font-bold text-lg text-gray-900">Mahesh Narsale</span>
       </div>
-
-      <!-- Frameworks -->
-      <div class="bg-white border border-gray-100 rounded-xl p-3 shadow-sm hover:shadow-md transition duration-300">
-        <h3 class="text-base font-semibold text-green-700 bg-green-50 inline-block px-3 py-1 rounded-full mb-4">
-          Frameworks
-        </h3>
-        <div class="flex flex-wrap gap-2 text-xs">
-          <span class="px-3 py-1 bg-red-100 text-red-800 rounded-full">Angular</span>
-          <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full">Spring Boot</span>
-          <span class="px-3 py-1 bg-lime-100 text-lime-800 rounded-full">Hibernate</span>
-          <span class="px-3 py-1 bg-amber-100 text-amber-800 rounded-full">Flask</span>
-          <span class="px-3 py-1 bg-emerald-100 text-emerald-800 rounded-full">Node.js</span>
-          <span class="px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full">Express.js</span>
-          <span class="px-3 py-1 bg-fuchsia-100 text-fuchsia-800 rounded-full">Frappe ERPNext</span>
-          <span class="px-3 py-1 bg-rose-100 text-rose-800 rounded-full">FastAPI</span>
-          <span class="px-3 py-1 bg-violet-100 text-violet-800 rounded-full">Django</span>
-        </div>
+      <div class="hidden md:flex space-x-6 text-sm font-medium">
+        <a href="#about" class="hover:text-blue-600 transition">About</a>
+        <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
+        <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+        <a href="#experience" class="hover:text-blue-600 transition">Experience</a>
+        <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
       </div>
+      <a href="https://linkedin.com/in/mahesh-narsale" target="_blank"
+        class="hidden md:inline-block bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition">
+        Hire Me
+      </a>
+      <button id="menu-btn" class="md:hidden focus:outline-none">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </nav>
 
-      <!-- Databases -->
-      <div class="bg-white border border-gray-100 rounded-xl p-3 shadow-sm hover:shadow-md transition duration-300">
-        <h3 class="text-base font-semibold text-yellow-700 bg-yellow-50 inline-block px-3 py-1 rounded-full mb-4">
-          Databases
-        </h3>
-        <div class="flex flex-wrap gap-2 text-xs">
-          <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full">PostgreSQL</span>
-          <span class="px-3 py-1 bg-amber-100 text-amber-800 rounded-full">MySQL</span>
-          <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full">MongoDB</span>
-          <span class="px-3 py-1 bg-rose-100 text-rose-800 rounded-full">MariaDB</span>
-          <span class="px-3 py-1 bg-sky-100 text-sky-800 rounded-full">SQLite</span>
-          <span class="px-3 py-1 bg-red-100 text-red-800 rounded-full">Redis</span>
-          <span class="px-3 py-1 bg-orange-100 text-orange-800 rounded-full">Firebase</span>
-        </div>
-      </div>
-
-      <!-- Application Development -->
-      <div class="bg-white border border-gray-100 rounded-xl p-3 shadow-sm hover:shadow-md transition duration-300">
-        <h3 class="text-base font-semibold text-purple-700 bg-purple-50 inline-block px-3 py-1 rounded-full mb-4">
-          Application Development
-        </h3>
-        <div class="flex flex-wrap gap-2 text-xs">
-          <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full">Android Developer</span>
-          <span class="px-3 py-1 bg-pink-100 text-pink-800 rounded-full">React Native</span>
-        </div>
-      </div>
-
-      <!-- ORM & Tools -->
-      <div class="bg-white border border-gray-100 rounded-xl p-3 shadow-sm hover:shadow-md transition duration-300">
-        <h3 class="text-base font-semibold text-pink-700 bg-pink-50 inline-block px-3 py-1 rounded-full mb-4">
-          ORM & Tools
-        </h3>
-        <div class="flex flex-wrap gap-2 text-xs">
-          <span class="px-3 py-1 bg-orange-100 text-orange-800 rounded-full">Git</span>
-          <span class="px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full">Docker</span>
-          <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full">AWS</span>
-          <span class="px-3 py-1 bg-slate-100 text-slate-800 rounded-full">Ubuntu</span>
-        </div>
-      </div>
-
-      <!-- Markup & Script -->
-      <div class="bg-white border border-gray-100 rounded-xl p-3 shadow-sm hover:shadow-md transition duration-300">
-        <h3 class="text-base font-semibold text-indigo-700 bg-indigo-50 inline-block px-3 py-1 rounded-full mb-4">
-          Markup & Script
-        </h3>
-        <div class="flex flex-wrap gap-2 text-xs">
-          <span class="px-3 py-1 bg-orange-100 text-orange-800 rounded-full">HTML5</span>
-          <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">CSS3</span>
-          <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full">PHP</span>
-          <span class="px-3 py-1 bg-rose-100 text-rose-800 rounded-full">JSP</span>
-          <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full">jQuery</span>
-          <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full">Bootstrap</span>
-          <span class="px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full">Tailwind CSS</span>
-          <span class="px-3 py-1 bg-fuchsia-100 text-fuchsia-800 rounded-full">XML</span>
-          <span class="px-3 py-1 bg-amber-100 text-amber-800 rounded-full">JSON</span>
-          <span class="px-3 py-1 bg-teal-100 text-teal-800 rounded-full">AJAX</span>
-          <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full">RESTful APIs</span>
-        </div>
-      </div>
-
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+      <ul class="flex flex-col space-y-2 p-4 text-sm font-medium">
+        <li><a href="#about" class="block hover:text-blue-600">About</a></li>
+        <li><a href="#skills" class="block hover:text-blue-600">Skills</a></li>
+        <li><a href="#projects" class="block hover:text-blue-600">Projects</a></li>
+        <li><a href="#experience" class="block hover:text-blue-600">Experience</a></li>
+        <li><a href="#contact" class="block hover:text-blue-600">Contact</a></li>
+      </ul>
     </div>
-  </div>
-</section>
+  </header>
 
-
-    <!-- List: Education -->
-    <section class="py-8 bg-white" id="education">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Education</h2>
-            <ul class="divide-y divide-gray-200">
-                <li class="py-4 flex items-center">
-                    <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mr-4">MCA</span>
-                    <div>
-                        <div class="font-semibold">ASMA Institute of Management, Pune</div>
-                        <div class="text-sm text-gray-600">2020 - 2022 </div>
-                    </div>
-                </li>
-                <li class="py-4 flex items-center">
-                    <span
-                        class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full mr-4">BCA</span>
-                    <div>
-                        <div class="font-semibold">New Arts, Commerce and Science College, Ahmednagar</div>
-                        <div class="text-sm text-gray-600">2017 - 2020 </div>
-                    </div>
-                </li>
-                <li class="py-4 flex items-center">
-                    <span
-                        class="inline-block bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full mr-4">12th</span>
-                    <div>
-                        <div class="font-semibold">Shri. Jalandhar High School Raimoha</div>
-                        <div class="text-sm text-gray-600">2016 - 2017 </div>
-                    </div>
-                </li>
-                <li class="py-4 flex items-center">
-                    <span class="inline-block bg-pink-100 text-pink-800 text-xs px-2 py-1 rounded-full mr-4">10th</span>
-                    <div>
-                        <div class="font-semibold">Shri. Jalandhar High School Raimoha</div>
-                        <div class="text-sm text-gray-600">2014 - 2015 </div>
-                    </div>
-                </li>
-            </ul>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20" id="hero">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Mahesh Narsale</h1>
+        <p class="text-lg mb-4">Full Stack Developer — Python | Angular | Frappe | DevOps | Cloud</p>
+        <p class="text-sm opacity-90 mb-6">Building scalable, secure, and elegant web solutions with a passion for innovation and performance.</p>
+        <div class="flex flex-wrap gap-3">
+          <a href="https://linkedin.com/in/mahesh-narsale" target="_blank"
+            class="bg-white text-blue-700 font-semibold px-5 py-2 rounded-lg hover:bg-blue-50 transition">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/maheshndev" target="_blank"
+            class="bg-gray-900 text-white font-semibold px-5 py-2 rounded-lg hover:bg-gray-800 transition">
+            <i class="fab fa-github"></i> GitHub
+          </a>
         </div>
-    </section>
-    <!-- Gallery: Projects -->
-    <section class="py-8 bg-white" id="projects">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Featured Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-gray-50 rounded-lg shadow p-6 flex flex-col">
-                    <div class="flex items-center mb-2">
-                        <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mr-2">Full
-                            Stack</span>
-                        <a href="https://softwaretechit.com"><span class="font-bold">SoftwareTechIT Website</span></a>
-                    </div>
-                    <p class="text-sm mb-2">Angular, Express.js, Node.js, MongoDB, Bootstrap</p>
-                    <div class="flex items-center">
-                        <span class="text-yellow-400 mr-1">★</span>
-                        <span class="text-xs text-gray-500">Full Stack Developer</span>
-                    </div>
-                </div>
-                <div class="bg-gray-50 rounded-lg shadow p-6 flex flex-col">
-                    <div class="flex items-center mb-2">
-                        <span
-                            class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full mr-2">PHP</span>
-                        <span class="font-bold">Web Story & Accessories</span>
-                    </div>
-                    <p class="text-sm mb-2">PHP, MySQL, Bootstrap, HTML, CSS, AMP</p>
-                    <div class="flex items-center">
-                        <span class="text-yellow-400 mr-1">★</span>
-                        <span class="text-xs text-gray-500">PHP Developer</span>
-                    </div>
-                </div>
-                <div class="bg-gray-50 rounded-lg shadow p-6 flex flex-col">
-                    <div class="flex items-center mb-2">
-                        <span class="inline-block bg-pink-100 text-pink-800 text-xs px-2 py-1 rounded-full mr-2">Angular
-                            & Flask</span>
-                        <span class="font-bold">EAccessoriesGadgets</span>
-                    </div>
-                    <p class="text-sm mb-2">Angular 14, Flask, MySQL, HTML, CSS, Angular Material, Bootstrap</p>
-                    <div class="flex items-center">
-                        <span class="text-yellow-400 mr-1">★</span>
-                        <span class="text-xs text-gray-500">Angular & Flask Developer</span>
-                    </div>
-                </div>
-                <div class="bg-gray-50 rounded-lg shadow p-6 flex flex-col">
-                    <div class="flex items-center mb-2">
-                        <span
-                            class="inline-block bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full mr-2">Java</span>
-                        <span class="font-bold">Covid-19 Hospital Management System</span>
-                    </div>
-                    <p class="text-sm mb-2">Java, PostgreSQL</p>
-                    <div class="flex items-center">
-                        <span class="text-yellow-400 mr-1">★</span>
-                        <span class="text-xs text-gray-500">Java Developer</span>
-                    </div>
-                </div>
-                <div class="bg-gray-50 rounded-lg shadow p-6 flex flex-col">
-                    <div class="flex items-center mb-2">
-                        <span
-                            class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full mr-2">Android</span>
-                        <span class="font-bold">Android App (SoftwareTechIT)</span>
-                    </div>
-                    <p class="text-sm mb-2">Android, YouTube API</p>
-                    <div class="flex items-center">
-                        <span class="text-yellow-400 mr-1">★</span>
-                        <span class="text-xs text-gray-500">Android Developer</span>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div>
+        <img src="assets/profile.jpg" alt="Mahesh Narsale" class="w-48 h-48 rounded-full shadow-lg border-4 border-white">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">About Me</h2>
+      <p class="text-gray-600 text-lg leading-relaxed">
+        I'm a passionate Full Stack Developer with expertise in designing scalable web apps, integrating AI-driven solutions, and delivering robust enterprise-grade systems.
+        I enjoy working across the stack — from crafting efficient APIs to creating elegant front-end experiences.
+      </p>
+      <ul class="list-disc pl-6 mt-4 text-gray-600">
+        <li>Over <span id="experience-years"></span> years of software development experience.</li>
+        <li>Strong foundation in backend architecture, DevOps, and UI/UX design.</li>
+        <li>Contributor to open source and tech learning communities.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-8 text-gray-800">Technical Skills</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="p-5 bg-white rounded-xl shadow hover:shadow-md transition">
+          <h3 class="font-semibold text-blue-600 mb-2">Languages</h3>
+          <p class="text-gray-600 text-sm">Python, TypeScript, JavaScript, C++, Java, SQL</p>
         </div>
-    </section>
-
-    <!-- GitHub Projects Section -->
-    <section id="github-projects-section" class="py-8 bg-white">
-        <div class="py-8 bg-gray-50">
-            <div class="max-w-6xl mx-auto px-4">
-                <h2 class="text-2xl font-semibold mb-6 text-gray-800">GitHub Projects</h2>
-                <div id="github-projects" class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                    <!-- GitHub repos will be loaded here -->
-                </div>
-                <div class="mt-4 text-right">
-                    <a href="https://github.com/maheshndev?tab=repositories" target="_blank"
-                        class="text-blue-600 hover:underline">View all on GitHub →</a>
-                </div>
-            </div>
+        <div class="p-5 bg-white rounded-xl shadow hover:shadow-md transition">
+          <h3 class="font-semibold text-green-600 mb-2">Frameworks</h3>
+          <p class="text-gray-600 text-sm">Angular, Spring Boot, Flask, Node.js, Django, Frappe ERPNext</p>
         </div>
-    </section>
-
-
-
-    <!-- Licenses & Certifications Section (Badge, List, Grid) -->
-    <section class="py-8 bg-gray-50" id="certifications">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Licenses & Certifications</h2>
-
-            <!-- Grid List -->
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <!-- Advanced Java WCD -->
-                <div class="bg-white rounded-lg shadow p-4 flex items-start gap-4">
-                    <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mt-1">Java</span>
-                    <div>
-                        <div class="font-semibold text-gray-900">Advanced Java WCD</div>
-                        <div class="text-sm text-gray-700">SEED Infotech Ltd</div>
-                        <div class="text-xs text-gray-500">Issued Apr 2019</div>
-                    </div>
-                </div>
-                <!-- Android Developer -->
-                <div class="bg-white rounded-lg shadow p-4 flex items-start gap-4">
-                    <span
-                        class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full mt-1">Android</span>
-                    <div>
-                        <div class="font-semibold text-gray-900">Android Developer</div>
-                        <div class="text-sm text-gray-700">SEED Infotech Ltd</div>
-                        <div class="text-xs text-gray-500">Issued Apr 2019</div>
-                    </div>
-                </div>
-                <!-- Core Java Programming -->
-                <div class="bg-white rounded-lg shadow p-4 flex items-start gap-4">
-                    <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mt-1">Java</span>
-                    <div>
-                        <div class="font-semibold text-gray-900">Core Java Programming</div>
-                        <div class="text-sm text-gray-700">SEED Infotech Ltd</div>
-                        <div class="text-xs text-gray-500">Issued Sep 2018</div>
-                    </div>
-                </div>
-                <!-- C++ -->
-                <div class="bg-white rounded-lg shadow p-4 flex items-start gap-4">
-                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full mt-1">C++</span>
-                    <div>
-                        <div class="font-semibold text-gray-900">C++</div>
-                        <div class="text-sm text-gray-700">SEED Infotech Ltd</div>
-                        <div class="text-xs text-gray-500">Issued Apr 2018</div>
-                    </div>
-                </div>
-                <!-- Data Structure -->
-                <div class="bg-white rounded-lg shadow p-4 flex items-start gap-4">
-                    <span class="inline-block bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full mt-1">Data
-                        Structure</span>
-                    <div>
-                        <div class="font-semibold text-gray-900">Data Structure</div>
-                        <div class="text-sm text-gray-700">SEED Infotech Ltd</div>
-                        <div class="text-xs text-gray-500">Issued Apr 2018</div>
-                    </div>
-                </div>
-                <!-- Angular Development -->
-                <div class="bg-white rounded-lg shadow p-4 flex items-start gap-4">
-                    <span
-                        class="inline-block bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full mt-1">Angular</span>
-                    <div>
-                        <div class="font-semibold text-gray-900">Angular Development</div>
-                        <div class="text-sm text-gray-700">SP Academy</div>
-                        <div class="text-xs text-gray-500">Skills: Angular Material · Angular CLI · Angular</div>
-                    </div>
-                </div>
-                <!-- Hibernate -->
-                <div class="bg-white rounded-lg shadow p-4 flex items-start gap-4">
-                    <span
-                        class="inline-block bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full mt-1">Hibernate</span>
-                    <div>
-                        <div class="font-semibold text-gray-900">Hibernate</div>
-                        <div class="text-sm text-gray-700">SEED Infotech Ltd</div>
-                    </div>
-                </div>
-                <!-- Spring Framework -->
-                <div class="bg-white rounded-lg shadow p-4 flex items-start gap-4">
-                    <span
-                        class="inline-block bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full mt-1">Spring</span>
-                    <div>
-                        <div class="font-semibold text-gray-900">Spring Framework</div>
-                        <div class="text-sm text-gray-700">SEED Infotech Ltd</div>
-                    </div>
-                </div>
-            </div>
+        <div class="p-5 bg-white rounded-xl shadow hover:shadow-md transition">
+          <h3 class="font-semibold text-yellow-600 mb-2">Databases</h3>
+          <p class="text-gray-600 text-sm">PostgreSQL, MySQL, MongoDB, Redis, Firebase</p>
         </div>
-    </section>
-    <!-- Contact Section -->
-    <section class="card py-8 bg-white" id="contact">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-2xl font-semibold mb-6 text-gray-800">Contact Me</h2>
-            <p class="text-gray-700 mb-4">Feel free to reach out for collaborations, job opportunities, or just to
-                connect!</p>
-            <form id="contact-form" class="space-y-4"></form>
-            <input type="text" name="name" placeholder="Your Name" required
-                class="w-full p-3 m-1 border rounded-lg focus:outline-none focus:ring focus:ring-blue-500" />
-            <input type="email" name="email" placeholder="Your Email" required
-                class="w-full p-3 m-1 border rounded-lg focus:outline-none focus:ring focus:ring-blue-500" />
-            <textarea name="message" rows="4" placeholder="Your Message" required
-                class="w-full p-3 m-1 border rounded-lg focus:outline-none focus:ring focus:ring-blue-500"></textarea>
-            <button type="submit" class="bg-blue-600 text-white px-4 m-1 py-2 rounded-lg hover:bg-blue-700 transition">Send
-                Message</button>
-            <div id="form-status" class="text-sm mt-2"></div>
-            </form>
+        <div class="p-5 bg-white rounded-xl shadow hover:shadow-md transition">
+          <h3 class="font-semibold text-indigo-600 mb-2">DevOps & Tools</h3>
+          <p class="text-gray-600 text-sm">Git, Docker, AWS, Linux, CI/CD, Cloudflare</p>
         </div>
-    </section>
+        <div class="p-5 bg-white rounded-xl shadow hover:shadow-md transition">
+          <h3 class="font-semibold text-pink-600 mb-2">Frontend</h3>
+          <p class="text-gray-600 text-sm">HTML5, CSS3, Tailwind CSS, Bootstrap, REST APIs</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer: Breadcrumbs, Menu -->
-    <footer class="py-8 bg-white text-center text-sm text-gray-600">
-        <div class="max-w-6xl mx-auto px-4">
-            <!-- Breadcrumbs -->
-            <nav class="flex justify-center mb-2" aria-label="Breadcrumb">
-                <ol class="inline-flex items-center space-x-1 md:space-x-3">
-                    <li class="inline-flex items-center">
-                        <a href="#" class="text-gray-700 hover:text-blue-600 inline-flex items-center">
-                            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M10 20V14H14V20H19V12H16L10 3L4 12H1V20H6V14H10V20Z"></path>
-                            </svg>
-                            Home
-                        </a>
-                    </li>
-                </ol>
-            </nav>
-            <!-- Menu -->
-            <div class="flex justify-center gap-6 mb-2">
-                <a href="#about" class="hover:text-blue-600">About</a>
-                <a href="#experience" class="hover:text-blue-600">Experience</a>
-                <a href="#education" class="hover:text-blue-600">Education</a>
-                <a href="#skills" class="hover:text-blue-600">Skills</a>
-                <a href="#projects" class="hover:text-blue-600">Projects</a>
-                <a href="#certifications" class="hover:text-blue-600">Certifications</a>
-                <a href="#github-projects-section" class="hover:text-blue-600">GitHub Projects</a>
-                <a href="#contact" class="hover:text-blue-600">Contact</a>
+  <!-- Projects -->
+  <section id="projects" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-8 text-gray-800">Featured Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-md transition">
+          <h3 class="text-lg font-semibold mb-2">SoftwareTechIT Website</h3>
+          <p class="text-sm text-gray-600 mb-3">Angular, Express.js, MongoDB</p>
+          <a href="https://softwaretechit.com" target="_blank" class="text-blue-600 hover:underline text-sm">Visit Project →</a>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-md transition">
+          <h3 class="text-lg font-semibold mb-2">EAccessoriesGadgets</h3>
+          <p class="text-sm text-gray-600 mb-3">Angular + Flask + MySQL</p>
+          <a href="#" class="text-blue-600 hover:underline text-sm">View on GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            </div>
-            <!-- Social Media Links -->
-            <div class="flex justify-center gap-4">
-                <a href="http://linkedin.com/in/mahesh-narsale" target="_blank"
-                    class="text-gray-600 hover:text-blue-600"><svg class="w-5 h-5" fill="currentColor"
-                        viewBox="0 0 24 24">
-                        <path
-                            d="M19.5 3h-15A1.5 1.5 0 003 4.5v15A1.5 1.5 0 004.5 21h15A1.5 1.5 0 0021 19.5v-15A1.5 1.5 0 0019.5 3zM8.25 18H6V10h2.25v8zm-1.125-9.25a1.125 1.125 0 110-2.25A1.125 1.125 0 017.125 8a1.125 1.125 0 01-.375-.25zm12.375 9.25h-2.25v-4c0-.75-.375-1.125-.75-1.125-.375-.375-.75-.375-1 .375V18h-2V10h2v2c0 .75-.375 1 .75 1 .375-.375.75-.375 1 .375V18z">
-                        </path>
-                    </svg></a>
-                <a href="https://github.com/maheshndev" target="_blank" class="text-gray-600 hover:text-blue-600"><svg
-                        class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                        <path
-                            d="M12 2C6.48 2 2 6.48 2 12c0 4.41 2.87 8.16 6.84 9.49.5.09.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.79.61-3.38-1.35-3.38-1.35-.45-1.14-1.1-1.44-1.1-1.44-.9-.61.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.64.35-1.08.64-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.57 9.57 0 0112 4.8c.85.004 1.7.115 2.5.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.83-2.34 4.69-4.56 4.94.35.3.66.89.66 1.79 0 1.29-.01 2.33-.01 2.65 0 .27.18.58.69.48A10.01 10.01 0 0022 12c0-5.52-4.48-10-10-10z">
-                        </path>
-                    </svg></a>
+  <!-- Experience -->
+  <section id="experience" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-8 text-gray-800">Work Experience</h2>
+      <div class="space-y-6">
+        <div class="p-6 bg-white rounded-xl shadow hover:shadow-md transition">
+          <h3 class="text-lg font-semibold">Software Engineer — Assimilate Technologies</h3>
+          <p class="text-sm text-gray-500 mb-2">Mar 2024 – Present | Pune, India</p>
+          <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <li>Developing full-stack solutions using Python, Docker, and JS frameworks.</li>
+            <li>Integrated AI modules to improve performance and UX.</li>
+            <li>Collaborated in agile sprints for production-grade applications.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            </div>
-    </footer>
-    <script>
-        // Simple Accordion toggle for Career Objective
-        // (already handled inline, but can be enhanced for accessibility)
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-4 text-gray-800">Let’s Connect</h2>
+      <p class="text-gray-600 mb-8">I'm open to collaborations, full-time roles, or innovative projects. Reach out anytime!</p>
+      <a href="mailto:maheshnarsale02@gmail.com"
+        class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+        <i class="fas fa-envelope"></i> Contact Me
+      </a>
+    </div>
+  </section>
 
-        // Fetch GitHub repositories dynamically
-        fetch('https://api.github.com/users/maheshndev/repos?sort=updated&per_page=12')
-            .then(response => response.json())
-            .then(repos => {
-                const container = document.getElementById('github-projects');
-                if (!Array.isArray(repos)) return;
-                repos.forEach(repo => {
-                    const card = document.createElement('div');
-                    card.className = 'bg-white rounded-lg shadow p-6 flex flex-col mb-2';
-                    card.innerHTML = `
-            <div class="flex items-center mb-2">
-              <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mr-2">${repo.language || 'Repo'}</span>
-              <a href="${repo.html_url}" target="_blank" class="font-bold hover:underline">${repo.name}</a>
-            </div>
-            <p class="text-sm mb-2">${repo.description ? repo.description : 'No description provided.'}</p>
-            <div class="flex items-center text-xs text-gray-500">
-              <span class="mr-4">★ ${repo.stargazers_count}</span>
-              <span>Updated: ${new Date(repo.updated_at).toLocaleDateString()}</span>
-            </div>
-          `;
-                    container.appendChild(card);
-                });
-            });
-    </script>
-    <script>
-  function calculateExperience(startDate) {
-    const start = new Date(startDate); // Example: "2023-12-01"
-    const now = new Date();
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-6 text-center text-sm">
+    <p>© 2025 Mahesh Narsale. Built with ❤️ using Tailwind CSS.</p>
+  </footer>
 
-    const diffInMs = now - start;
-    const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365); // convert ms → years
-
-    return diffInYears.toFixed(1); // one decimal (e.g., 1.8)
-  }
-
-  // Set your real career start date here
-  const startDate = "2023-12-01"; 
-  const years = calculateExperience(startDate);
-
-  // Update everywhere
-  document.getElementById("experience-years").textContent =
-    `${years}+ Years Of Experience`;
-
-  document.getElementById("experience-years-about").textContent =
-    `${years}+ years of professional experience`;
-</script>
-
+  <script src="js/main.js"></script>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
