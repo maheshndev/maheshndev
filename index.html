@@ -478,24 +478,25 @@
       setIcons(isDark);
     });
 
-    // ----- Experience years auto-calc
-    (function(){
-      // Set careerStart to the date you want to measure experience from.
-      // I used Dec 1, 2023 (you can edit to match your preferred "start").
-      const careerStart = new Date('2023-12-01'); // <-- change if needed
-      const now = new Date();
-      const diffMs = now - careerStart;
-      const diffYears = diffMs / (1000 * 60 * 60 * 24 * 365.25);
-      const yearsWhole = Math.floor(diffYears);
-      const months = Math.floor((diffYears - yearsWhole) * 12);
-      let label = '';
-      if (yearsWhole >= 1) label = (yearsWhole + (months >= 6 ? '+': '')) + ' years';
-      else if (months > 0) label = months + ' months';
-      else label = '< 1 month';
-      // If you prefer the resume's "2+ Year" label, set it manually here:
-      // label = '2+ Years';
-      document.getElementById('experience-years').textContent = label;
-    })();
+    // ----- Experience years auto-calc -----
+(function() {
+  // Set your actual career start date here:
+  const careerStart = new Date('2023-12-01'); // change if needed
+  const now = new Date();
+
+  const diffMs = now - careerStart;
+  const diffYears = diffMs / (1000 * 60 * 60 * 24 * 365.25);
+
+  // Round to one decimal, e.g., 1.9 or 2.1
+  const roundedYears = Math.round(diffYears * 10) / 10;
+
+  // Add a '+' if not a clean integer
+  const label = roundedYears % 1 === 0 ? `${roundedYears}+ Years` : `${roundedYears}+ Years`;
+
+  // Example: 1.9+ Years or 2+ Years
+  document.getElementById('experience-years').textContent = label;
+})();
+
 
     // ----- Fetch GitHub repos and render
     (async function loadGitHubRepos(){
@@ -564,4 +565,5 @@
   <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
 </body>
 </html>
+
 
