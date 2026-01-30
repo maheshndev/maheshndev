@@ -14,8 +14,8 @@ Here are some ideas to get you started:
 
 <h3> 💻 About Me </h3>
 
-- 🔭 I’m Currently Working As Python Developer Full Stack
-- 🌱 I’m Currently Learning Angular, Python, JavaScript, React, React Native,
+- 🔭 I’m Currently Working As Full Stack Developer
+- 🌱 I’m Currently Learning Angular, Python, JavaScript, Typescript React, React Native, Vue.js
 - 🔭 I’m Currently Doing Open Source Contributions.
 - 🤔 Exploring New Technologies And Developing Software Solutions And Quick Hacks.
 - ☕ I Believe, A Perfect Cup Of Coffee Can Be The Ultimate Solution For Any Stress. 
