@@ -77,8 +77,10 @@ Here are some ideas to get you started:
 ## 🏆 GitHub Trophies
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=maheshndev&column=6)](https://github.com/maheshndev/) 
+
+
 <div rowspan="1">
-<span colspan="1"> ## Streaks
+<span colspan="1">
 [![Streaks](https://github-readme-streak-stats.herokuapp.com?user=maheshndev&theme=radical)](https://github.com/maheshndev/)
 </span>
 
