@@ -96,6 +96,7 @@ Here are some ideas to get you started:
 </div>
 <!-- new github states   -->
 <p align="center">
+ <span style="background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">@maheshndev</span>
   <img src="https://yourinsights.vercel.app/api/insight?username=maheshndev&theme=github_dark&graph=false&languages=true&streak=true&stats=true&header=false&summary=false&profile=false" alt="GitHub Insights" />
 </p>
 
