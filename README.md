@@ -74,7 +74,8 @@ Here are some ideas to get you started:
 <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=maheshndev&layout=compact&theme=radical" alt="SoftwareTechIT github stats" colspan="1"/>
 </div>
 <div rowspan="1">
-## 🏆 GitHub Trophies
+
+ ## 🏆 GitHub Trophies
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=maheshndev&column=6)](https://github.com/maheshndev/) 
 </div>
@@ -82,13 +83,13 @@ Here are some ideas to get you started:
 <div rowspan="1">
 <span colspan="1">
  
- ## Streaks
+
 [![Streaks](https://github-readme-streak-stats.herokuapp.com?user=maheshndev&theme=radical)](https://github.com/maheshndev/)
 </span>
 
 <span colspan="1">
 
-## Summery Charts
+
 [![Summery](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maheshndev&theme=radical)](https://github.com/maheshndev/)
 </span>
 
