@@ -77,7 +77,7 @@ Here are some ideas to get you started:
 
  ## 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=maheshndev&column=6)](https://github.com/maheshndev/) 
+[![trophy](https://github-trophies.vercel.app/?username=maheshndev)](https://github.com/maheshndev/) 
 </div>
 
 <div rowspan="1">
