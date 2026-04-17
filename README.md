@@ -96,7 +96,7 @@ Here are some ideas to get you started:
 </div>
 <!-- new github states   -->
 <p align="center">
-  <img src="https://yourinsights.vercel.app/api/insight?username=maheshndev&theme=github_dark&graph=false&languages=true&streak=true&stats=true&header=false&summary=false&profile=false" alt="GitHub Insights" />
+  <img src="https://yourinsights.vercel.app/api/insight?username=maheshndev&theme=github_dark&graph=false&languages=true&streak=true&stats=true&header=false&summary=true&profile=false" alt="GitHub Insights" />
 </p>
 
 
