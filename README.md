@@ -78,3 +78,6 @@ Here are some ideas to get you started:
 
 ## Streaks
 [![Streaks](https://github-readme-streak-stats.herokuapp.com?user=maheshndev&theme=radical)](https://github.com/maheshndev/)
+
+## Summery Charts
+[![Summery](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maheshndev&theme=radical)](https://github.com/maheshndev/)
