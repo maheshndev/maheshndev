@@ -99,13 +99,3 @@ Here are some ideas to get you started:
   <img src="https://yourinsights.vercel.app/api/insight?username=maheshndev&theme=github_dark&graph=false&languages=true&streak=true&stats=true&header=false&summary=true&profile=false" alt="GitHub Insights" />
 </p>
 
-
-  
-<br>
-
-<div align="center">
-<a href="https://u8views.com/github/maheshndev"><img src="https://u8views.com/api/v1/github/profiles/115661003/views/day-week-month-total-count.svg"></a>
-</div>
-
-<br>
-
