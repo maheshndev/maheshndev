@@ -73,7 +73,7 @@ Here are some ideas to get you started:
 <img src="https://github-readme-stats.vercel.app/api?username=maheshndev&custom_title=maheshndev&show_icons=true&include_all_commits=true&count_private=true&theme=radical" alt="SoftwareTechIT github stats" colspan="1"/>
 <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=maheshndev&layout=compact&theme=radical" alt="SoftwareTechIT github stats" colspan="1"/>
 </div>
-<div>
+<div rowspan="1">
 ## 🏆 GitHub Trophies
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=maheshndev&column=6)](https://github.com/maheshndev/) 
