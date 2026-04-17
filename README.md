@@ -87,13 +87,11 @@ Here are some ideas to get you started:
 </div>
 
 <div rowspan="1">
-
-
-<!-- <div colspan="1">
+<div colspan="1">
 
 
 [![Summery](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maheshndev&theme=radical)](https://github.com/maheshndev/)
-</div> -->
+</div> 
 
 </div>
 <!-- new github states   -->
