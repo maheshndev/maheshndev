@@ -74,18 +74,20 @@ Here are some ideas to get you started:
 <img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=maheshndev&layout=compact&theme=radical" alt="SoftwareTechIT github stats" colspan="1"/>
 </div>
 <div rowspan="1">
-
+<div colspan="1">
+ 
  ## 🏆 GitHub Trophies
 
 [![trophy](https://github-trophies.vercel.app/?username=maheshndev)](https://github.com/maheshndev/) 
 </div>
-
-<div rowspan="1">
 <div colspan="1">
  
-
 [![Streaks](https://github-readme-streak-stats.herokuapp.com?user=maheshndev&theme=radical)](https://github.com/maheshndev/)
 </div>
+</div>
+
+<div rowspan="1">
+
 
 <!-- <div colspan="1">
 
