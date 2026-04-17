@@ -109,8 +109,3 @@ Here are some ideas to get you started:
 
 <br>
 
-<div align="center">
-<a href="https://www.codewars.com/users/maheshndev"><img src="https://www.codewars.com/users/maheshndev/badges/small">
-</div>
-
-<br>
